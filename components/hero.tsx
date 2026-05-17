@@ -17,7 +17,7 @@ export default function Hero() {
       >
 
         {/* Tytuł */}
-        <ScrollReveal textClassName="text-[#FFFFFF] text-[48px] md:text-[72px] font-semibold tracking-tight leading-[1.1]">
+        <ScrollReveal textClassName="text-[#FFFFFF] text-[40px] sm:text-[48px] md:text-[72px] font-semibold tracking-tight leading-[1.1]">
           Twoja historia zaczyna się tutaj
         </ScrollReveal>
 

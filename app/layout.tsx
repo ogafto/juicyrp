@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       {/* 3. Używamy poppins.className, aby Next.js twardo wymusił ten font */}
-      <body className={`${poppins.className} bg-[#0F0905] text-white min-h-screen flex flex-col antialiased m-0 p-0 overflow-x-hidden`}>
+      <body className={`${poppins.className} bg-[#0F0905] text-white min-h-screen flex flex-col antialiased m-0 p-0`}>
         <Navbar />
         <main className="flex-grow w-full m-0 p-0 relative">
           {children}

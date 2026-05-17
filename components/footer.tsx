@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#1A1009] border-t border-[#3D2616] mt-[200px] px-[300px] py-[128px] flex justify-between items-start relative z-10">
+    <footer className="w-full bg-[#1A1009] border-t border-[#3D2616] mt-[100px] xl:mt-[200px] px-6 md:px-12 xl:px-[300px] py-[64px] xl:py-[128px] flex flex-col xl:flex-row justify-between items-start gap-[64px] xl:gap-0 relative z-10">
       
       {/* Lewa strona - Logo i opis */}
       <motion.div 
@@ -36,7 +36,7 @@ export default function Footer() {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         viewport={{ once: true }}
-        className="flex gap-[120px]"
+        className="flex flex-col sm:flex-row gap-[48px] xl:gap-[120px] w-full xl:w-auto"
       >
         
         {/* Nawigacja */}

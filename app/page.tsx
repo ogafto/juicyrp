@@ -10,7 +10,7 @@ export default function Home() {
       
       {/* Górna sekcja z obrazkiem w tle */}
       <div 
-        className="w-full h-auto min-h-[924px] pt-[192px] relative"
+        className="w-full h-auto min-h-[650px] xl:min-h-[924px] pt-[120px] xl:pt-[192px] relative flex flex-col overflow-hidden"
         style={{
           backgroundImage: "url('/bgjuicy.png')",
           backgroundSize: "cover",

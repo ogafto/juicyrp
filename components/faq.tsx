@@ -55,7 +55,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="w-full px-[300px] mt-[200px] relative z-10 pb-[100px] flex justify-between items-start">
+    <section className="w-full px-6 md:px-12 xl:px-[300px] mt-[100px] md:mt-[200px] relative z-10 pb-[100px] flex flex-col xl:flex-row justify-between items-start gap-12 xl:gap-0">
 
       {/* Lewa strona - Tytuł i przycisk */}
       <motion.div 
@@ -63,7 +63,7 @@ export default function FAQ() {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="flex flex-col items-start text-left w-[500px] shrink-0"
+        className="flex flex-col items-start text-left w-full xl:w-[500px] shrink-0"
       >
         <div className="flex items-center gap-[8px]">
           <div className="w-[8px] h-[8px] rounded-full bg-[#FF6A00]"></div>
@@ -105,7 +105,7 @@ export default function FAQ() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, margin: "-20px" }}
-        className="flex flex-col gap-[16px] w-[648px] shrink-0"
+        className="flex flex-col gap-[16px] w-full xl:w-[648px] shrink-0"
       >
         {faqs.map((faq, index) => {
           const isOpen = openIndex === index;

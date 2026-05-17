@@ -42,7 +42,7 @@ export default function Applications() {
   };
 
   return (
-    <section className="w-full px-6 md:px-12 xl:px-[300px] mt-[100px] md:mt-[150px] relative z-10">
+    <section className="w-full px-6 md:px-12 xl:px-[300px] mt-[48px] xl:mt-[150px] relative z-10">
 
       {/* Nagłówek sekcji */}
       <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end gap-6 xl:gap-0">
