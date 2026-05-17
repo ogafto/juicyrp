@@ -47,7 +47,7 @@ export default function FAQ() {
       x: 0,
       filter: "blur(0px)",
       transition: { 
-        type: "spring",
+        type: "spring" as const,
         stiffness: 80,
         damping: 15
       } 
