@@ -30,7 +30,7 @@ const faqs = [
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -40,7 +40,7 @@ export default function FAQ() {
     }
   };
 
-  const itemVariants = {
+  const itemVariants: any = {
     hidden: { opacity: 0, x: -15, filter: "blur(8px)" },
     show: { 
       opacity: 1, 

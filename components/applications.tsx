@@ -15,7 +15,7 @@ const cards = [
 ];
 
 export default function Applications() {
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -25,7 +25,7 @@ export default function Applications() {
     }
   };
 
-  const itemVariants = {
+  const itemVariants: any = {
     hidden: { opacity: 0, scale: 0.95, y: 15, filter: "blur(10px)" },
     show: { 
       opacity: 1, 
